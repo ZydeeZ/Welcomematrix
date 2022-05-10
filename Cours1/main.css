@@ -1,6 +1,6 @@
 /* style.css */
 body{
-  background: rgb(245,245,245);
+  background: rgb(255,255,255);
   color: green;
   font-size: 25px;
   font-family: Helvetica;
@@ -9,7 +9,7 @@ h1{
   font-family: Courier;
   color: green;
   font-weight: lighter;
-  font-size: 40px;
+  font-size: 55px;
 }
 h2 {
   font-family: Courier;
@@ -17,10 +17,45 @@ h2 {
   font-weight: lighter;
   font-size: 20px;
 }
+h3{
+ font-family:Calibri;
+ color: black;
+ font-weight: lighter;
+ font-size: 15px;
+}
+p{
+font-family: Calibri;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px;
+}
+li{
+font-family:Optima;
+  color: green;
+  font-weight: lighter;
+  font-size: 25px;
+
+}
 a {
-  color: yellow;
+  color: black;
 }
 a:hover {
   text-decoration: none;
   color: purple;
+}
+nav {
+	padding: 0; margin: 0;
+        text-align: center;
+}
+nav li {
+	display: inline;
+	list-style: none; 
+}
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+}
+
+.main-header {
+  text-align: center;
 }
